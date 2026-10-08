@@ -1,0 +1,6 @@
+Input: 62371453311311
+Solution length: 11
+Moves: R B D' B' D R B' D R2 D' R
+PASS: replay reaches solved state.
+
+Program exited with code: 0

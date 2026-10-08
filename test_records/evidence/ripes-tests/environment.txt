@@ -1,0 +1,39 @@
+Test environment
+
+Operating system: Windows
+Ripes build: v2.2.6-106-g5b8a616 (as recorded in the user's HackMD)
+Test date and time: 20261007
+Processor model used for these screenshots: RV32_5S
+Enabled ISA extensions: None
+Test configurations:
+
+1. Single-input CLI test
+   Source: solver_tested.s
+   Processor: RV32_ISS
+   ISA extensions: none
+   RUN_TESTS: 0
+   Input: 21345671111111
+   Renderer: excluded
+
+2. Three-case CLI tests
+   Source: solver_three_tests.s
+   Processors: RV32_ISS and RV32_5S
+   ISA extensions: none
+   RUN_TESTS: 1
+   Inputs: 12345671111111, 25314672313211, 21345671111111
+   Renderer: excluded
+
+3. LED GUI test
+   Source: solver_led_tested.s
+   Processor: RV32_5S
+   ISA extensions: none
+   RUN_TESTS: 0
+   Input: 21345671111111
+   Renderer: enabled
+   LED matrix: width 35, height 25
+Input state: 21345671111111
+Actual tested assembly filename: solver_led_tested.s
+
+Record the settings actually used. Do not fill in settings from a different test.
+If you did not record a setting, check it in Ripes or repeat the test and save
+new evidence with the corresponding settings.

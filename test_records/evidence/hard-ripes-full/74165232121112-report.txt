@@ -1,0 +1,9 @@
+===== instructions retired
+9485730
+===== wall-clock model execution time (ms)
+795
+===== simulation information (processor configuration, input file, ...)
+ISA extensions: 
+processor: RV32_ISS
+source file: C:\Users\USER\Documents\Codex\2026-10-06\new-chat-2\outputs\test_records\evidence\hard-ripes-full\active_case.s
+

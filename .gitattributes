@@ -1,0 +1,4 @@
+# Preserve the exact bytes of source snapshots and historical evidence.
+# The recorded SHA-256 values must survive checkout on another platform.
+rv32i/** -text
+test_records/** -text

@@ -1,0 +1,72 @@
+
+Discarded input sections
+
+ .comment       0x0000000000000000       0x31 reference_gcc.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000000000000                . = 0x0
+
+.text           0x0000000000000000      0xbcc
+ *(.text.start)
+ .text.start    0x0000000000000000       0x18 reference_start.o
+                0x0000000000000000                _start
+ *(.text .text.*)
+ .text          0x0000000000000018        0x0 reference_start.o
+ .text          0x0000000000000018      0x7a0 reference_gcc.o
+                0x0000000000000018                rank_orientation
+                0x0000000000000048                factorial
+                0x00000000000000c8                rank_permutation
+                0x0000000000000190                quarter_turn_orientation
+                0x0000000000000208                quarter_turn_permutation
+                0x0000000000000240                apply_orientation_move
+                0x000000000000032c                apply_permutation_move
+                0x00000000000003d4                max
+                0x00000000000003e8                heuristic
+                0x000000000000045c                heuristic_ranked
+                0x0000000000000488                apply_move
+                0x00000000000004d0                is_solved
+                0x0000000000000504                search_round
+                0x00000000000006e4                ida_star
+ .text.startup  0x00000000000007b8      0x414 reference_gcc.o
+                0x00000000000007b8                main
+                0x0000000010000000                . = 0x10000000
+
+.rodata         0x0000000010000000    0x1ad70
+ *(.rodata .rodata.* .srodata .srodata.*)
+ .rodata.str1.4
+                0x0000000010000000       0xd3 reference_gcc.o
+ *fill*         0x00000000100000d3        0x1 
+ .rodata        0x00000000100000d4    0x1ac9c reference_gcc.o
+
+.data           0x000000001001ad70        0xf
+ *(.data .data.* .sdata .sdata.*)
+ .data          0x000000001001ad70        0x0 reference_start.o
+ .data          0x000000001001ad70        0xf reference_gcc.o
+
+.bss            0x000000001001ad80     0x1000
+ *(.bss .bss.* .sbss .sbss.*)
+ .bss           0x000000001001ad80        0x0 reference_start.o
+ .bss.stack     0x000000001001ad80     0x1000 reference_start.o
+                0x000000001001bd80                __stack_top
+ .bss           0x000000001001bd80        0x0 reference_gcc.o
+ *(COMMON)
+
+/DISCARD/
+ *(.comment)
+ *(.eh_frame .eh_frame.*)
+LOAD reference_start.o
+LOAD reference_gcc.o
+OUTPUT(reference.elf elf32-littleriscv)
+
+.riscv.attributes
+                0x0000000000000000       0x1c
+ .riscv.attributes
+                0x0000000000000000       0x1a reference_start.o
+ .riscv.attributes
+                0x000000000000001a       0x1c reference_gcc.o

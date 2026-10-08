@@ -1,0 +1,9 @@
+Mode: SMOKE ONLY
+Completed cases: 3/3
+Optimal length and independent replay: PASS for all completed cases
+Cases exceeding 50,000,000 retired instructions: 0
+Maximum retired instructions: 21,486,372
+Worst input: 54721631111111
+Sum of recorded model execution time (ms): 3349
+This runner invocation wall-clock seconds: 4.628
+Full 2644-case requirement: NOT PASSED

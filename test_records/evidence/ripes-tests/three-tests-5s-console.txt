@@ -1,0 +1,15 @@
+Input: 12345671111111
+Solution length: 0
+Moves: (solved)
+PASS: replay reaches solved state.
+Input: 25314672313211
+Solution length: 1
+Moves: R'
+PASS: replay reaches solved state.
+Input: 21345671111111
+Solution length: 11
+Moves: R B' D2 R' B R' B' R D2 R B
+PASS: replay reaches solved state.
+ALL 3 TESTS PASSED
+
+Program exited with code: 0

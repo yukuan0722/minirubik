@@ -1,0 +1,14 @@
+{
+  "mode": "FULL",
+  "processor": "RV32_ISS",
+  "ISA_extensions": [],
+  "RUN_TESTS": 0,
+  "renderer": "excluded",
+  "limit_iret_per_state": 50000000,
+  "states_requested": 2644,
+  "template_sha256": "3bad034389c7f829a961780a1222e0a5eefa69545744ad1b505571eb9868a414",
+  "oracle_sha256": "fc964cfb25a341e2208f65b0a97194c0894b248d538afb82d0baaf73843c3413",
+  "ripes_sha256": "bd2ddea8cd6fcf6902cda7366fe99ab6dd0c7fdbbc7efcfdb89ede20acc67f0f",
+  "ripes_executable": "C:\\Users\\USER\\Downloads\\Ripes-v2.2.6-106-g5b8a616-win-x86_64\\Ripes.exe",
+  "source_generation": "Replace only input_state string in solver_frozen.s. active_case.s is overwritten for each case."
+}

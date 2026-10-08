@@ -4,6 +4,13 @@ An optimal C99 solver for the 2×2×2 Rubik’s Cube. It builds a breadth-first
 table for all 3,674,160 states and solves every valid position in at most 11
 half-turn-metric moves.
 
+## Phase 1 working record
+
+The RV32I sources, C refinement versions, build instructions and test evidence
+are indexed in [PHASE1.md](PHASE1.md). The AI assistance record is in
+[AI_USAGE.md](AI_USAGE.md). This collection is a working record; independent
+assembly authorship and measured assembly-refinement history remain unresolved.
+
 ## Why a cube is a graph
 
 Ernő Rubik created the original cube in 1974 to demonstrate how parts can move

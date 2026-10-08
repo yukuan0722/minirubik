@@ -3,3 +3,9 @@
 *.swp
 solver
 mini
+
+# Locally rebuilt host programs and compiler intermediates.
+*.exe
+*.o
+__pycache__/
+*.pyc
