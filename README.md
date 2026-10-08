@@ -11,6 +11,17 @@ are indexed in [PHASE1.md](PHASE1.md). The AI assistance record is in
 [AI_USAGE.md](AI_USAGE.md). This collection is a working record; independent
 assembly authorship and measured assembly-refinement history remain unresolved.
 
+The [published HackMD report](https://hackmd.io/@linyukuan/Hki5p1AqGx) is the
+written working record. The final student-edited C refinement is
+[solver_rv32i_step3.c](test_records/c/solver_rv32i_step3.c), with the existing
+Chinese comments preserved. The earlier student-supplied C source is
+[solver_original.c](test_records/c/solver_original.c). The root
+[solver.c](solver.c) remains the upstream BFS baseline.
+
+The initial RV32I core and LED renderer were assistant-generated working
+artifacts; they must not be identified as independently student-written
+assembly. Changing their comments does not change that provenance.
+
 ## Why a cube is a graph
 
 Ernő Rubik created the original cube in 1974 to demonstrate how parts can move

@@ -4,6 +4,17 @@ Baseline commit: `3811ad0a87bd490e45099c3cb179ec33caf46cb5`.
 The upstream files remain in place. The written report is maintained in HackMD;
 its published revision link must be recorded with the eventual submitted tag.
 
+Current published report: [Assignment 1: Mini-Rubik on RV32I](https://hackmd.io/@linyukuan/Hki5p1AqGx).
+This is the current page link, not a pinned revision URL.
+
+For the final C algorithm, use
+[test_records/c/solver_rv32i_step3.c](test_records/c/solver_rv32i_step3.c).
+It retains the existing student-supplied Chinese comments and includes the
+student's Step 1/2/3 edits. Its repository copy was compared byte-for-byte
+with the previously used working file on October 8, 2026. The GCC reference
+includes this exact C file. Do not mistake the upstream root `solver.c` for
+this final C algorithm.
+
 This is a working record, not a declaration that every assignment requirement is
 complete. Assembly authorship and measured iterative assembly refinement remain
 unresolved. See [AI_USAGE.md](AI_USAGE.md) before selecting a submission snapshot.
